@@ -31,6 +31,8 @@ section {
   background-color: white;
   border-radius: 50%;
   align-items: center;
+  transition: 0.5s ease-in-out;
+  animation: soosh 3s ease-in-out 1s;
 }
 
 .two {
@@ -39,4 +41,28 @@ section {
   margin: auto;
   border-radius: 50%;
   background-color: black;
+}
+
+@keyframes soosh {
+  0% {
+  }
+  25% {
+    transform: scale(-2);
+    background-color: red;
+  }
+  50% {
+    transform: rotateX(60deg);
+
+    background-color: rgb(96, 13, 13);
+  }
+  75% {
+    transform: rotateX(60deg);
+
+    background-color: rgb(53, 2, 2);
+  }
+
+  100% {
+    transform: rotateX(60deg);
+    background-color: transparent;
+  }
 }

@@ -1,4 +1,7 @@
 document.addEventListener("keypress", () => {
   console.log("yeah");
 });
-fsdfsdfsdsdff;
+
+setTimeout(() => {
+  document.querySelector(".one").setAttribute("style", "display:none;");
+}, 3000);
