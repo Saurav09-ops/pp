@@ -1,8 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   background-color: black;
   color: antiquewhite;
 }
-h1 {
-  text-align: center;
+
+section {
+  display: flex;
+  height: 100dvh;
+  width: 100dvw;
+  align-items: center;
 }
-fdssdsad
+
+.one {
+  display: flex;
+  height: 400px;
+  width: 400px;
+  margin: auto;
+  background-color: white;
+  border-radius: 50%;
+  align-items: center;
+}
+
+.two {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 50%;
+  background-color: black;
+}
